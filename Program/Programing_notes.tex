@@ -1,0 +1,66 @@
+\documentclass[12pt, a4paper, oneside]{ctexbook}
+\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref,listings, mathrsfs, titlesec,xcolor}
+
+\title{\Huge{\textbf{编程笔记}}}
+\author{violet}
+\date{May 2024} 
+\linespread{1.5}
+\linespread{1.5}
+\titleformat*{\section}{\Large\bfseries\raggedright}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{definition}[theorem]{定义}
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\newtheorem{example}[theorem]{例}
+\newtheorem{proposition}[theorem]{命题}
+% 保存原始 \section格式
+\newcommand{\sectionbackup}{\titleformat*{\section}{\Large\bfseries\centering}}
+% 设置 \section居左显示
+\titleformat*{\section}{\Large\bfseries\raggedright}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{white},   
+    commentstyle=\color{mygreen},
+    keywordstyle=\color{blue},
+    numberstyle=\tiny\color{mygray},
+    stringstyle=\color{red},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                
+    numbers=left,                   
+    numbersep=5pt,                  
+    showspaces=false,               
+    showstringspaces=false,
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\begin{document}
+
+\maketitle
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\chapter {Python}
+
+\section{1}
+
+\begin{verbatim}
+def hello_world():
+    print("Hello, world!")
+\end{verbatim}
+
+\end{document}

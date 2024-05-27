@@ -1,0 +1,120 @@
+\documentclass[12pt, a4paper, oneside]{ctexbook}
+\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs, titlesec}
+
+\title{\Huge{\textbf{大物复习}}}
+\author{violet}
+\date{May 2024} 
+\linespread{1.5}
+\linespread{1.5}
+\titleformat*{\section}{\Large\bfseries\raggedright}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{definition}[theorem]{定义}
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\newtheorem{example}[theorem]{例}
+\newtheorem{proposition}[theorem]{命题}
+% 保存原始 \section格式
+\newcommand{\sectionbackup}{\titleformat*{\section}{\Large\bfseries\centering}}
+% 设置 \section居左显示
+\titleformat*{\section}{\Large\bfseries\raggedright}
+
+\begin{document}
+
+\maketitle
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\chapter{质点运动学}
+
+\newpage
+
+\section{质点运动的描述}
+\subsection{位置矢量\ 运动方程\ 位移}
+
+1.位置矢量(位矢):确定质点P某一时刻在
+坐标系里的位置的物理量称位置矢量, 简称位矢
+$ \boldsymbol{r} $
+
+$$ \boldsymbol{r} =x\boldsymbol{i}+y\boldsymbol{j}+\boldsymbol{k} $$
+
+模长为:
+$$ \left|\boldsymbol{r}\right|=\sqrt{x^2+y^2+z^2} $$
+方向余弦:
+
+$$ 
+    \\cos \alpha =\frac{x}{\left|\boldsymbol{r}\right|}
+    ,\\cos \beta =\frac{y}{\left|\boldsymbol{r}\right|}
+    ,\\cos \gamma =\frac{z}{\left|\boldsymbol{r}\right|}
+$$ 
+
+2.运动方程：$ \boldsymbol{r} $是时间t的函数,即
+$$ 
+    \boldsymbol{r} =\boldsymbol{r(t)}=x(t)\boldsymbol{i} +y(t)\boldsymbol{j} +z(t)\boldsymbol{k} 
+$$
+
+\newpage
+
+\chapter{恒定磁场}
+
+\newpage
+
+\section{恒定电流}
+
+\noindent 
+\subsection{电流：}
+通过截面S的电荷随时间的变化率(单位时间内通过截面S的电量)
+$$ I=\frac{dq}{dt} $$
+
+SI单位：A(安培)\quad
+$ 1A=10^3 mA=10^6 uA $ 
+\subsubsection{2.电流密度：}
+细致描述导体内各点电流分布的情况
+
+方向：$ \overrightarrow{j} $ \quad 该点正电荷运动方向
+
+大小：单位时间内过该点且垂直于正电荷运动方向的单位面积的电荷
+
+$$ d\boldsymbol{I}=en\vec{v_d}\cdot d\vec{S} $$
+$$ \vec{j}=en\vec{v_d} $$
+$$ \boldsymbol{I}=\int_S \vec{j}\cdot d\vec{S} $$
+
+n:电子数密度
+
+$ \vec{v_d} $:电子漂移速度
+
+\subsubsection{3.电流的连续性方程：}
+单位时间内通过闭合曲面向外流出的电荷，等于此时间内闭合曲面内电荷的减少量
+
+即$$ \oint \vec{j}\cdot d\vec{S}=-\frac{dQ_i}{dt} $$
+
+\subsubsection{4.恒定电流条件：}
+$$ \oint \vec{j}\cdot d\vec{S}=0 \quad \text{或} \quad -\frac{dQ_i}{dt}=0 $$
+
+\subsubsection{5.欧姆定律的微分形式：}
+
+电阻：$$ R=\frac{\rho dl}{dS} $$
+
+$ dI=\frac{dU}{R} ,\quad dI=\frac{1}{\rho} \frac{dU}{dl}dS ,\quad \frac{dI}{dS}= \frac{1}{\rho} \frac{dU}{dl} =\frac{1}{\rho}E $
+
+即：$$ \vec{j}=\frac{1}{\rho} \vec{E}=\gamma \vec{E} $$
+——欧姆定律的微分形式，其中 $\gamma$ 为电导率
+
+可知：任一点的电流密度与电场强度方向相同，大小成正比
+
+在恒定电流的情况下，电导率均匀的导体内部没有净电荷，电荷只能分布在导体的表面处（或分界面上）。\quad （可用高斯定理证明，此处省略）
+
+\section{电源 \ 电动势}
+\subsection{电动势}
+\subsubsection{}
+
+
+\end{document}
