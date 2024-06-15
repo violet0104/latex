@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.12)  15 JUN 2024 00:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.12)  15 JUN 2024 00:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Programing_notes
-(./Programing_notes.tex
+**document
+(./document.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (d:/download/texlive/texlive/2023/texmf-dist/tex/latex/ctex/ctexbook.cls (d:/download/texlive/texlive/2023/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
@@ -478,8 +478,8 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
 \c@theorem=\count324
- (./Programing_notes.aux)
-\openout1 = `Programing_notes.aux'.
+ (./document.aux)
+\openout1 = `document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -558,17 +558,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 41.
 Package hyperref Info: Link coloring OFF on input line 41.
- (./Programing_notes.out) (./Programing_notes.out)
+ (./document.out) (./document.out)
 \@outlinefile=\write3
-\openout3 = `Programing_notes.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
+\openout3 = `document.out'.
 
 \c@lstlisting=\count325
 LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
-(d:/download/texlive/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (d:/download/texlive/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
@@ -581,9 +577,9 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1
 
 
-] (./Programing_notes.toc)
+] (./document.toc)
 \tf@toc=\write4
-\openout4 = `Programing_notes.toc'.
+\openout4 = `document.toc'.
 
  [1
 
@@ -614,17 +610,17 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 
 [1
 
-] (./Programing_notes.aux)
-Package rerunfilecheck Info: File `Programing_notes.out' has not changed.
+] (./document.aux)
+Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 73D01A7241A3D142780C8891E3980695;132.
  ) 
 Here is how much of TeX's memory you used:
- 17792 strings out of 478630
- 379295 string characters out of 5846115
+ 17789 strings out of 478630
+ 379073 string characters out of 5846115
  1845012 words of memory out of 5000000
- 37643 multiletter control sequences out of 15000+600000
+ 37641 multiletter control sequences out of 15000+600000
  528280 words of font info for 117 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 89i,6n,97p,529b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,6n,97p,521b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Programing_notes.pdf (3 pages).
+Output written on document.pdf (3 pages).

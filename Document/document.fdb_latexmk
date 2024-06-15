@@ -1,0 +1,14 @@
+# Fdb version 4
+["pdflatex"] 1718381486 "d:/CODE/latex/Document/document.tex" "document.pdf" "document" 1718381487 2
+  "HITletter.cls" 0 -1 0 ""
+  "d:/CODE/latex/Document/document.tex" 1718381485 8244 277c99e9d3f1c94f42f83d0d593fe772 ""
+  "d:/download/texlive/texlive/2023/texmf-dist/web2c/texmf.cnf" 1710254962 40745 87bb86a62d462f93a1efc6b0c65c872e ""
+  "d:/download/texlive/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1710256531 6528346 ce481c5cecd225b8a1350b54c10d359d ""
+  "d:/download/texlive/texlive/2023/texmf.cnf" 1710256406 713 e69b156964470283e0530f5060668171 ""
+  "document.aux" 1718381486 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "document.tex" 1718381485 8244 277c99e9d3f1c94f42f83d0d593fe772 ""
+  (generated)
+  "document.aux"
+  "document.log"
+  "document.pdf"
+  (rewritten before read)

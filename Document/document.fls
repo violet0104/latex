@@ -1,0 +1,6 @@
+PWD d:/CODE/latex/Document
+INPUT d:/download/texlive/texlive/2023/texmf.cnf
+INPUT d:/download/texlive/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT d:/download/texlive/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT d:/CODE/latex/Document/document.tex
+OUTPUT document.log
